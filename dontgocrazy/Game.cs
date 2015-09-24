@@ -7,25 +7,19 @@ namespace dontgocrazy
         public static string hello = "Hello World";
         public int number2 = 60;
         public int num3 = 10;
+        private Health health = new Health();
+        private Random random = new Random();
 
         public void Main()
         {
             Initialize();
-            Health health = new Health();
-            Random random = new Random();
             health.Damage(random.Next(1, 5));
-            health.Heal(random.Next(1,5));
+            health.Heal(random.Next(1, 5));
         }
 
         public void Initialize()
         {
-            
         }
-
-
-
-
-
 
         /*
         public void SwitchPractice()
@@ -57,7 +51,6 @@ namespace dontgocrazy
             }
             Console.Clear();
         }
-        
 
         public void LoopingPractice()
         {
@@ -81,7 +74,7 @@ namespace dontgocrazy
 
             Console.Clear();
         }
-        
+
         public void IfElsePractice(string type, int health, int damage)
         {
             if (type == "Damage")

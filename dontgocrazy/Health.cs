@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace dontgocrazy
 {
-    class Health
+    internal class Health
     {
         public static int HP = 10;
 
