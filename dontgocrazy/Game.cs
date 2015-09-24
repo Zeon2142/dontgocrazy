@@ -10,14 +10,24 @@ namespace dontgocrazy
 
         public void Main()
         {
+            Initialize();
             Health health = new Health();
-            
-            SwitchPractice();
-            LoopingPractice();
-            IfElsePractice("Damage", HP, 2);
-            IfElsePractice("Heal", HP, 4);
+            Random random = new Random();
+            health.Damage(random.Next(1, 5));
+            health.Heal(random.Next(1,5));
         }
 
+        public void Initialize()
+        {
+            
+        }
+
+
+
+
+
+
+        /*
         public void SwitchPractice()
         {
             Console.WriteLine("Enter Pass Code Please");
@@ -47,6 +57,7 @@ namespace dontgocrazy
             }
             Console.Clear();
         }
+        
 
         public void LoopingPractice()
         {
@@ -60,19 +71,17 @@ namespace dontgocrazy
             {
                 Console.WriteLine(e);
             }
-            /*
             do
             {
                 Console.WriteLine(hello);
                 num3--;
             }
             while (num3 > 0);
-            */
             System.Threading.Thread.Sleep(1000);
 
             Console.Clear();
         }
-
+        
         public void IfElsePractice(string type, int health, int damage)
         {
             if (type == "Damage")
@@ -90,5 +99,6 @@ namespace dontgocrazy
                 Console.ReadKey();
             }
         }
+        */
     }
 }
