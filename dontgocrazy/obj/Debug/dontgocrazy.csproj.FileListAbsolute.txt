@@ -4,3 +4,9 @@ C:\Users\Eric\Documents\GitHub\dontgocrazy\dontgocrazy\bin\Debug\dontgocrazy.pdb
 C:\Users\Eric\Documents\GitHub\dontgocrazy\dontgocrazy\obj\Debug\dontgocrazy.csprojResolveAssemblyReference.cache
 C:\Users\Eric\Documents\GitHub\dontgocrazy\dontgocrazy\obj\Debug\dontgocrazy.exe
 C:\Users\Eric\Documents\GitHub\dontgocrazy\dontgocrazy\obj\Debug\dontgocrazy.pdb
+C:\Users\Eric\Documents\GitHub\CodoRehabe\dontgocrazy\bin\Debug\dontgocrazy.exe.config
+C:\Users\Eric\Documents\GitHub\CodoRehabe\dontgocrazy\obj\Debug\dontgocrazy.exe
+C:\Users\Eric\Documents\GitHub\CodoRehabe\dontgocrazy\obj\Debug\dontgocrazy.pdb
+C:\Users\Eric\Documents\GitHub\CodoRehabe\dontgocrazy\bin\Debug\dontgocrazy.exe
+C:\Users\Eric\Documents\GitHub\CodoRehabe\dontgocrazy\bin\Debug\dontgocrazy.pdb
+C:\Users\Eric\Documents\GitHub\CodoRehabe\dontgocrazy\obj\Debug\dontgocrazy.csprojResolveAssemblyReference.cache
