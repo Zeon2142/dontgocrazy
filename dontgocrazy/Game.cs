@@ -7,19 +7,19 @@ namespace dontgocrazy
         public static string hello = "Hello World";
         public int number2 = 60;
         public int num3 = 10;
-        public  Health health = new Health();
         private Random random = new Random();
+        int HP;
 
         public void Main()
         {
             Initialize();
-            health.Damage(random.Next(1, 5));
-            health.Heal(random.Next(1, 5));
+            Damage(random.Next(1, 5));
+            Heal(random.Next(1, 5));
         }
 
         public void Initialize()
         {
-
+            HP = 20;
         }
 
         
@@ -81,7 +81,6 @@ namespace dontgocrazy
             if (type == "Damage")
             {
                 Console.WriteLine("Oh No, you have received damage");
-                health.Damage
                 Console.WriteLine("Your Health is now at: " + HP);
                 Console.ReadKey();
             }
@@ -93,5 +92,12 @@ namespace dontgocrazy
                 Console.ReadKey();
             }
         }
+
+        #region Health Stuff
+
+        public void Damage(int damagedone){HP -= damagedone;}
+        public void Heal(int healthgained) {HP += healthgained;}
+
+        #endregion
     }
 }
