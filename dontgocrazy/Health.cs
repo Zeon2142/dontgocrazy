@@ -2,11 +2,11 @@
 
 namespace dontgocrazy
 {
-    internal class Health
+    internal struct Health
     {
-        public static int HP = 10;
+        public int HP = 10;
 
-        public void health()
+        public void Health()
         {
             Initialize();
         }

@@ -7,7 +7,7 @@ namespace dontgocrazy
         public static string hello = "Hello World";
         public int number2 = 60;
         public int num3 = 10;
-        private Health health = new Health();
+        public  Health health = new Health();
         private Random random = new Random();
 
         public void Main()
@@ -19,9 +19,10 @@ namespace dontgocrazy
 
         public void Initialize()
         {
+
         }
 
-        /*
+        
         public void SwitchPractice()
         {
             Console.WriteLine("Enter Pass Code Please");
@@ -80,7 +81,7 @@ namespace dontgocrazy
             if (type == "Damage")
             {
                 Console.WriteLine("Oh No, you have received damage");
-                HP -= damage;
+                health.Damage
                 Console.WriteLine("Your Health is now at: " + HP);
                 Console.ReadKey();
             }
@@ -92,6 +93,5 @@ namespace dontgocrazy
                 Console.ReadKey();
             }
         }
-        */
     }
 }
