@@ -4,53 +4,25 @@ namespace dontgocrazy
 {
     internal class Game
     {
+        // Single class game
         public static string hello = "Hello World";
         public int number2 = 60;
         public int num3 = 10;
-        private Random random = new Random();
+        Random random = new Random();
         int HP;
+        int Armor;
 
         public void Main()
         {
-            Initialize();
+            Init();
             Damage(random.Next(1, 5));
             Heal(random.Next(1, 5));
         }
 
-        public void Initialize()
+        public void Init()
         {
             HP = 20;
-        }
-
-        
-        public void SwitchPractice()
-        {
-            Console.WriteLine("Enter Pass Code Please");
-            try
-            {
-                int choice = Convert.ToInt32(Console.ReadLine());
-                switch (choice)
-                {
-                    case 1:
-                        Console.WriteLine("Entrance Code Accepted");
-                        break;
-
-                    case 2:
-                        Console.WriteLine("Entrance Code Denied");
-                        break;
-
-                    default:
-                        Console.WriteLine("Error");
-                        break;
-                }
-            }
-            catch (Exception F)
-            {
-                Console.WriteLine(F);
-                Console.Clear();
-                SwitchPractice();
-            }
-            Console.Clear();
+            Armor = 0;
         }
 
         public void LoopingPractice()
